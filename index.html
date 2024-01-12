@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cadastro de Veículos</title>
+    <title>Cadastro Kontopp</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="./index.js"></script>
 </head>
 <body>
     <div class="container">
@@ -17,21 +18,21 @@
                 <p>Cadastro</p>
             </div>
             <div class="form-body">
-                <h1 class="form-title">Formulário Kontopp Tec</h1>
+                <h1 class="form-title">Formulário Kontopp</h1>
                 <br>
                 <br>
                 <form>
                     <div class="box-input">
                         <label for="NameUser">Nome Completo: <span class="required-field">*</span></label>
-                        <input type="text" id="NameUser" name="NameUser" class="block" minlength="1" maxlength="30" required placeholder="Dígite seu nome">
+                        <input type="text" id="NameUser" name="NameUser" class="block" minlength="1" maxlength="40" required placeholder="Dígite seu nome">
                     </div>
                     <div class="box-input">
                         <label for="AgeUser">Idade: <span class="required-field">*</span></label>
-                        <input type="number" id="AgeUser" name="AgeUser" class="block" required>
+                        <input type="number" id="AgeUser" name="AgeUser" class="block" >
                     </div>
                     <div class="box-input">
                         <label for="date_birth">Data de nascimento: <span class="required-field">*</span></label>
-                        <input type="date" id="date_birth" name="date_birth" class="block" required>
+                        <input type="date" id="date_birth" name="date_birth" class="block" >
                     </div>
                     <div class="box-input">
                         <p>Sexo: <span class="required-field">*</span></p>
@@ -40,7 +41,7 @@
                     </div>
                     <br>
                     <div>
-                        <input type="submit" class="btn-submit" value="Cadastrar">
+                        <input type="submit" class="btn-submit" value="Cadastrar" onclick="Cadastrar()">
                     </div>
                 </form>
             </div>
