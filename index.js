@@ -1,33 +1,63 @@
-function Cadastrar(){
+const formulario = document.querySelector("form");
 
-    anoAtual = new Date();
+const nameUser = document.getElementById("NameUser");
 
-    nameUser = document.getElementById("NameUser").value
+const ageUser = document.getElementById("AgeUser");
 
-    ageUser = document.getElementById("AgeUser").value
+const dateBirth = document.getElementById("dateBirth");
 
-    dateBirth = document.getElementById("dateBirth").valueAsDate
+let usersGender;
 
-    console.log(nameUser)
-
-    console.log(ageUser)
-
-    if(anoAtual.getUTCFullYear() - dateBirth.getUTCFullYear() < 15){
-
-        console.log("Idade não permitida")
-
-    }else{
-
-        console.log(dateBirth.getUTCDate() + "/" + Number(dateBirth.getUTCMonth() + 1)  + "/" + dateBirth.getUTCFullYear())
-
-    }
+function genderVeri(){
 
     if(document.getElementById("masculine").checked){
 
-        console.log("Masculino")
-
+        usersGender = "Masculino"
+        
     }else{
-        console.log("Feminino")
 
+        usersGender = "Feminino"
     }
 }
+
+function cadastrar(){
+    fetch("http://localhost:8090/api",
+        {
+            headers: {
+                "Accept": "application/json",
+                "Content-Type": "application/json"
+            },
+            method: "POST",
+            body: JSON.stringify({
+                nameUser: nameUser.value,
+                ageUser: Number(ageUser.value),
+                dateBirth: dateBirth.value,
+                usersGender: usersGender
+            })
+        })
+        .then(function(res){console.log(res)})
+        .catch(function(res){console.log(res)})
+}
+
+function limpar(){
+
+    nameUser.value = "";
+
+    ageUser.value = "";
+
+    dateBirth.value = "";
+
+    usersGender = "";
+
+}
+
+formulario.addEventListener("submit", function(event){
+
+    event.preventDefault();
+
+    genderVeri()
+
+    cadastrar()
+
+    limpar()
+})

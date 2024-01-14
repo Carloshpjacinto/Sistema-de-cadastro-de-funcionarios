@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cadastro Kontopp</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="./index.js"></script>
+    <script src="./index.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -21,7 +21,7 @@
                 <h1 class="form-title">Formulário Kontopp</h1>
                 <br>
                 <br>
-                <form>
+                <form id = "form" action="">
                     <div class="box-input">
                         <label for="NameUser">Nome Completo: <span class="required-field">*</span></label>
                         <input type="text" id="NameUser" name="NameUser" class="block" minlength="1" maxlength="40" required placeholder="Dígite seu nome">
@@ -32,16 +32,16 @@
                     </div>
                     <div class="box-input">
                         <label for="date_birth">Data de nascimento: <span class="required-field">*</span></label>
-                        <input type="date" id="dateBirth" name="dateBirth" class="block" >
+                        <input type="date" id="dateBirth" name="dateBirth" class="block">
                     </div>
                     <div class="box-input">
                         <p>Sexo: <span class="required-field">*</span></p>
-                        <input type="radio" id="masculine" name="masculine"><label for="masculine">Masculino</label>
-                        <input type="radio" id="feminine" name="feminine"><label for="feminine">Feminino</label>
+                        <input type="radio" id="masculine" name="usersGender"><label for="masculine">Masculino</label>
+                        <input type="radio" id="feminine" name="usersGender"><label for="feminine">Feminino</label>
                     </div>
                     <br>
                     <div>
-                        <input type="submit" class="btn-submit" value="Cadastrar" onclick="Cadastrar()">
+                        <button class="btn-submit">Cadastrar</button>
                     </div>
                 </form>
             </div>
