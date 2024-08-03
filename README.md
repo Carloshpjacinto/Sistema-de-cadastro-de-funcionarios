@@ -6,7 +6,7 @@
 
 #### O sistema é construído em duas partes: front-end e back-end.
 
-### Front-end:
+### FRONT-END:
 
 #### O front-end é um formulário interativo para preenchimento das informações do usuário.
 
@@ -24,11 +24,11 @@
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="40" length="40"/>
 
-### IMAGEM DO FRONT
+### Imagem do Formulário:
 
 ![](https://raw.githubusercontent.com/Carloshpjacinto/Sistema-de-cadastro-de-funcionarios/main/Imagens/Captura%20de%20tela(Formulario).png)
 
-### Back-end:
+### BACK-END:
 
 #### API construída em Java usando Spring Boot.
 
@@ -40,7 +40,10 @@
 
 ### Tecnologias e ferramentas usadas:
 
-    Linguagem: Java
-    IDE utilizada: Eclipse IDE
+## Linguagem:
 
-IMAGEM DA API
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" length="40"/>
+    
+## IDE utilizada:
+
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original-wordmark.svg" width="40" length="40"/>
