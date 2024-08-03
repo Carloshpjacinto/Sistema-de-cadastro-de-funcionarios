@@ -1,21 +1,30 @@
 # 📋 Sistema de cadastro.
 
-### {c:blue}Descrição:{/c}
+### Descrição
 
-Sistema de cadastro desenvolvido para uma empresa chamada Kontopp, com o objetivo de armazenar as informações solicitadas em um banco de dados.
+#### Sistema de cadastro desenvolvido para uma empresa chamada Kontopp, com o objetivo de armazenar as informações solicitadas em um banco de dados.
 
-O sistema é construído em duas partes: front-end e back-end.
+#### O sistema é construído em duas partes: front-end e back-end.
 
-Front-end:
+### Front-end:
 
-O front-end é um formulário interativo para preenchimento das informações do usuário.
+#### O front-end é um formulário interativo para preenchimento das informações do usuário.
 
-Tecnologias e ferramentas usadas:
+### Tecnologias e ferramentas usadas:
 
-    Linguagens: JavaScript, HTML, CSS
-    IDE utilizada: Visual Studio Code
+## Linguagens: 
 
-IMAGEM DO FRONT
+<dev>
+     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" length="40"/>
+     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="40" length="40"/>
+     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="40" length="40"/>
+</dev>
+
+## IDE utilizada:
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+
+### IMAGEM DO FRONT
 
 Back-end:
 
