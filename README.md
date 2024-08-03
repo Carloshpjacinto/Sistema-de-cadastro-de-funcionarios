@@ -1,11 +1,35 @@
 # 📋 Sistema de cadastro.
 
-#### Sistema construido em duas partes, front-end e back-end.
+### {c:blue}Descrição:{/c}
 
-#### O front é um formulario interativo para preenchimento de informações do usuario.
+Sistema de cadastro desenvolvido para uma empresa chamada Kontopp, com o objetivo de armazenar as informações solicitadas em um banco de dados.
 
-#### O back-end é uma API construida em Java usando Spring Boot.
+O sistema é construído em duas partes: front-end e back-end.
 
-#### A API faz a persistencia dos dados cadastrados no formulario e armazena eles em um banco de dados no MySQL Workbench.
+Front-end:
 
-#### A conexão entre o banco de dados e a API foi feita usando Hibernate.
+O front-end é um formulário interativo para preenchimento das informações do usuário.
+
+Tecnologias e ferramentas usadas:
+
+    Linguagens: JavaScript, HTML, CSS
+    IDE utilizada: Visual Studio Code
+
+IMAGEM DO FRONT
+
+Back-end:
+
+API construída em Java usando Spring Boot.
+
+A API faz a persistência dos dados cadastrados no formulário e os armazena em um banco de dados criado no MySQL Workbench.
+
+A conexão entre o banco de dados e a API foi feita usando Hibernate.
+
+Os testes iniciais de conexão e POST foram feitos utilizando o Postman.
+
+Tecnologias e ferramentas usadas:
+
+    Linguagem: Java
+    IDE utilizada: Eclipse IDE
+
+IMAGEM DA API
