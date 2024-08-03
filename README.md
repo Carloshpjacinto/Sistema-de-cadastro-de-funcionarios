@@ -44,7 +44,7 @@
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="55" length="55"/>
 
-## Framework:
+## Frameworks:
 
 <div>
      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg" width="40" length="40"/>
@@ -53,4 +53,4 @@
  
 ## IDE utilizada:
 
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original-wordmark.svg" width="70" length="70"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original-wordmark.svg" width="80" length="80"/>
