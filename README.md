@@ -26,7 +26,7 @@
 
 ### IMAGEM DO FRONT
 
-![]("https://raw.githubusercontent.com/Carloshpjacinto/Sistema-de-cadastro-de-funcionarios/main/Imagens/Captura%20de%20tela(Formulario).png")
+![](https://raw.githubusercontent.com/Carloshpjacinto/Sistema-de-cadastro-de-funcionarios/main/Imagens/Captura%20de%20tela(Formulario).png)
 
 Back-end:
 
