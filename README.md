@@ -14,31 +14,31 @@
 
 ## Linguagens: 
 
-<dev>
+<div>
      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" length="40"/>
      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="40" length="40"/>
      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="40" length="40"/>
-</dev>
+</div>
 
 ## IDE utilizada:
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="40" length="40"/>
 
 ### IMAGEM DO FRONT
 
 ![](https://raw.githubusercontent.com/Carloshpjacinto/Sistema-de-cadastro-de-funcionarios/main/Imagens/Captura%20de%20tela(Formulario).png)
 
-Back-end:
+### Back-end:
 
-API construída em Java usando Spring Boot.
+#### API construída em Java usando Spring Boot.
 
-A API faz a persistência dos dados cadastrados no formulário e os armazena em um banco de dados criado no MySQL Workbench.
+#### A API faz a persistência dos dados cadastrados no formulário e os armazena em um banco de dados criado no MySQL Workbench.
 
-A conexão entre o banco de dados e a API foi feita usando Hibernate.
+#### A conexão entre o banco de dados e a API foi feita usando Hibernate.
 
-Os testes iniciais de conexão e POST foram feitos utilizando o Postman.
+#### Os testes iniciais de conexão e POST foram feitos utilizando o Postman.
 
-Tecnologias e ferramentas usadas:
+### Tecnologias e ferramentas usadas:
 
     Linguagem: Java
     IDE utilizada: Eclipse IDE
