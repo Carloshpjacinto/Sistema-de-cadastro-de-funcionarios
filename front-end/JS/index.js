@@ -60,4 +60,5 @@ formulario.addEventListener("submit", function(event){
     cadastrar()
 
     limpar()
+    
 })
