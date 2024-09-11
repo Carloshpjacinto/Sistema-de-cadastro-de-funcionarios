@@ -1,125 +1,132 @@
-/* reset */
+
+html{
+
+    font-size: 10px;
+
+}
+
 body {
+
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0ebf8;
-}
 
-h1, h2, h3, h4, h5 {
-    color: #333;
-}
-
-p, label {
-    color: #444;
-}
-
-input {
-    border: 1px solid transparent;
-    border-bottom: 1px solid #CCC;
-    padding: 10px 0px;
-}
-
-input[type=text], input[type=number], input[type=date], input[type=file] {
-    width: 400px;
-}
-
-textarea {
-    padding: 10px 5px;
-    width: 400px;
 }
 
 /* Cabeçalho da página */
-.header {
-    height: 160px;
-    padding: 20px;
+header {
+
     background-color: #00bf63;
+
 }
 
-#logo{
-    max-width: 225px;
-}
+    #logo{
+    
+        width: 5%;
+        margin: 0rem 0rem 0rem 10rem;
 
-.header h3 {
-    color: #FFF;
-    margin-top: 0;
-}
+    }
 
 /* Formulário */
 .form-container {
-    background-color: #FFF;
-    width: 60%;
+
+    background-color: #ffffff00;
+    border: .1rem solid;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: -62px;
+    top: 2rem;
+
 }
 
-/* Cabeçalho formulário */
-.form-header {
-    border-bottom: 1px solid #DFDFDF;
-    height: 45px;
+    /* Cabeçalho formulário */
+    .form-header {
+
+        border-bottom: .1rem solid #DFDFDF;
+        height: 4.5rem;
+
+    }
+
+        .form-header p {
+
+        color: #00bf63;
+        border-bottom: .2rem solid #00bf63;
+        width: 10rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+        height: 4.5rem;
+        line-height: 4.5rem;
+
+        }
+
+    /* Corpo formulário */
+    .form-body {
+
+        padding: 3rem;
+        margin: 0rem 0rem 0rem 7rem;
+
+    }
+
+        .form-title {
+
+        margin: 0;
+
+        }
+
+input {
+
+    border: .1rem solid transparent;
+    border-bottom: .1rem solid #CCC;
+    padding: 1rem 0px;
+    background-color: #cccccc00;
+
 }
 
-.form-header p {
-    color: #00bf63;
-    border-bottom: 2px solid #00bf63;
-    width: 100px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    text-transform: uppercase;
-    height: 45px;
-    line-height: 45px;
-}
+input[type=text], input[type=number], input[type=date], input[type=file] {
 
-/* Corpo formulário */
-.form-body {
-    padding: 30px;
-}
+    width: 50%;
 
-.form-title {
-    margin: 0;
-}
-
-.required-field {
-    color: #D80835;
 }
 
 .box-input {
-    margin-bottom: 30px;
+
+    margin-bottom: 3rem;
+
 }
 
-.block {
-    display: block;
-}
+    .required-field {
 
-.optional_box {
-    display: inline-block;
-    margin-right: 30px;
-}
+        color: #D80835;
 
-.optional_list {
-    padding-left: 0;
-}
+    }
 
-.optional_list li {
-    list-style: none;
-}
+    .block {
 
-.btn-submit {
-    background-color: #00bf63;
-    color: #FFF;
-    border: 2px solid transparent;
-    width: 150px;
-    height: 50px;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: .5s;
-}
+        display: block;
 
-.btn-submit:hover {
-    background-color: #FFF;
-    border-color: #00bf63;
-    color: #00bf63;
-}
+    }
+
+    .btn-submit {
+
+        background-color: #00bf63;
+        color: #FFF;
+        border: .2rem solid transparent;
+        width: 15rem;
+        height: 5rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: .5s;
+
+    }
+
+        .btn-submit:hover {
+
+        background-color: #FFF;
+        border-color: #00bf63;
+        color: #00bf63;
+
+        }
