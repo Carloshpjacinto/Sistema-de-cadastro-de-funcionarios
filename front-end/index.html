@@ -9,8 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Cadastro Kontopp</title>
+    <title>Kontopp Tech</title>
     <script src="JS/index.js" defer></script>
+    <script src="https://kit.fontawesome.com/dc7cfc34df.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,11 +26,30 @@
 
     <main class="container">
 
+        <section id="infoContact">
+
+            <h1>Cadastre-se agora!</h1>
+            <p id="textInfoContact">Você receberá no seu e-mail informações sobre a empresa.</p>
+            <h3>Contato</h3>
+
+            <div>
+                <div class="contactAndLogo">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>kontopp@gmail.com</p>
+                </div>
+
+                <div class="contactAndLogo">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+55 11 4004-5125</p>
+                </div>
+
+            </div>
+
+        </section>
+
         <section class="form-container">
 
             <form class="form-body">
-
-                <h1 class="form-title">Formulário Kontopp</h1>
 
                 <div id = "form" action="">
 
@@ -50,8 +70,10 @@
 
                     <div class="box-input">
                         <p>Sexo: <span class="required-field">*</span></p>
-                        <input type="radio" id="masculine" name="usersGender"><label for="masculine">Masculino</label>
-                        <input type="radio" id="feminine" name="usersGender"><label for="feminine">Feminino</label>
+                        <div>
+                            <input type="radio" id="masculine" name="usersGender"><label class="gender" for="masculine">Masculino</label>
+                            <input type="radio" id="feminine" name="usersGender"><label class="gender" for="feminine">Feminino</label>
+                        </div>
                     </div>
 
                     <div>

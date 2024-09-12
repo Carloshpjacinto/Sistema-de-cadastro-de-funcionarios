@@ -1,3 +1,4 @@
+/*Variaveis*/
 :root{
 
     --cor-defaut: #00bf63;
@@ -9,37 +10,87 @@
 html{
 
     font-size: 10px;
+    width: 100%;
+    height: 100%;
 
 }
 
 body {
 
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
     font-family: "SUSE", sans-serif;
-    background: linear-gradient(360deg, var(--cor-white), var(--cor-defaut)), var(--cor-white);
+    background: linear-gradient(360deg, var(--cor-white), var(--cor-defaut));
     background-repeat: no-repeat;
+
+}
+
+#logo{
+    
+    width: 6.5%;
+    margin: 0rem 0rem 0rem 10rem;
 
 }
 
 main{
 
-    margin: 1rem 2rem 3rem 4rem;
+    margin: 2.5rem 20rem 2.5rem 20rem;
+    display: flex;
+    justify-content: space-around;
+
 }
 
-    #logo{
-    
-        width: 5%;
-        margin: 0rem 0rem 0rem 10rem;
+    #infoContact{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
     }
 
-form{
+        #infoContact h1{
 
-    display: flex;
-    flex-direction: column;
+            font-size: 5rem;
+            margin: 0rem 0rem 3rem 0rem;
 
-}
+        }
+
+        #infoContact #textInfoContact{
+
+            font-size: 1.8rem;
+            margin: 0rem 0rem 2.5rem .5rem;
+
+        }
+
+        #infoContact h3{
+
+            font-size: 3.5rem;
+            margin: 5rem 0rem 3rem 0rem;
+
+        }
+
+        .contactAndLogo{
+
+            display: flex;
+            align-items: center;
+            margin: 0rem 0rem 3rem .5rem;
+
+        }
+
+            .contactAndLogo i{
+
+                font-size: 2rem;
+                margin: 0rem 0rem 0rem .1rem;
+
+            }
+
+            .contactAndLogo p{
+
+                font-size: 1.6rem;
+                margin: 0rem 0rem 0rem 1rem;
+            }
 
 /* Formulário */
 .form-container {
@@ -47,95 +98,106 @@ form{
     background-color: #ffffff00;
     border: .1rem solid;
     width: 45%;
+    height: 75rem;
 
 }
-
-    /* Cabeçalho formulário */
-    .form-header {
-
-        border-bottom: .1rem solid #DFDFDF;
-        height: 4.5rem;
-
-    }
-
-        .form-header p {
-
-        color: #00bf63;
-        border-bottom: .2rem solid #00bf63;
-        width: 10rem;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        text-transform: uppercase;
-        height: 4.5rem;
-        line-height: 4.5rem;
-
-        }
 
     /* Corpo formulário */
     .form-body {
 
-        padding: 3rem;
-        margin: 0rem 0rem 0rem 7rem;
-
+        width: 100%;
+        height: 100%;
+        margin: 5rem 0rem 0rem 8rem;
+        
     }
 
-        .form-title {
+        .box-input {
 
-        margin: 0;
+            margin-bottom: 5rem;
 
         }
 
-input {
+            .box-input label{
 
-    border: .1rem solid transparent;
-    border-bottom: .1rem solid #CCC;
-    padding: 1rem 0px;
-    background-color: #cccccc00;
+                font-size: 1.8rem;
 
-}
+            }
 
-input[type=text], input[type=number], input[type=date], input[type=file] {
+            .box-input input{
 
-    width: 50%;
+                padding: 1rem 0px;
+                margin: 2rem 0rem 0rem 0rem;
 
-}
+            }
 
-.box-input {
+                input[type=text], input[type=number], input[type=date]{
 
-    margin-bottom: 3rem;
+                    width: 50%;
+                    border: 0;
+                    border-bottom: .1rem solid #000000;
+                    background-color: #cccccc00;
+                    font-size: 1.6rem;
+                    color: #686868a4;
+                    outline: none;
 
-}
+                }
 
-    .required-field {
+                input[type=number]{
 
-        color: #D80835;
+                    -moz-appearance: textfield;
 
-    }
+                }
 
-    .block {
+            .box-input p{
 
-        display: block;
+                font-size: 1.8rem;
+                margin: 0rem 0rem 2rem 0rem;
 
-    }
+            }
 
-    .btn-submit {
+            .gender{
 
-        background-color: #00bf63;
-        color: #FFF;
-        border: .2rem solid transparent;
-        width: 15rem;
-        height: 5rem;
-        text-transform: uppercase;
-        cursor: pointer;
-        transition: .5s;
+                font-size: 1.6;
+                margin: 0rem 3rem 0rem 1rem;
 
-    }
+            }
 
-        .btn-submit:hover {
+            .gender:last-child{
 
-        background-color: #FFF;
-        border-color: #00bf63;
-        color: #00bf63;
+                margin: 0rem 0rem 0rem 1rem;
+            }
+
+            .required-field {
+
+                color: #D80835;
+
+            }
+
+            .block {
+
+                display: block;
+
+            }
+
+        .btn-submit {
+
+            background-color: #00bf63;
+            color: #FFF;
+            border: .2rem solid transparent;
+            width: 15rem;
+            height: 5rem;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: 1s;
+            border-radius: 5rem;
+            margin: 3rem 0rem 0rem 0rem;
 
         }
+
+            .btn-submit:hover {
+
+            background-color: #FFF;
+            border-color: #00bf63;
+            color: #00bf63;
+
+            }
