@@ -181,16 +181,18 @@ main{
 
         .btn-submit {
 
+            font-size: 1.8rem;
             background-color: #00bf63;
             color: #FFF;
             border: .2rem solid transparent;
-            width: 15rem;
+            width: 50rem;
             height: 5rem;
             text-transform: uppercase;
             cursor: pointer;
             transition: 1s;
             border-radius: 5rem;
             margin: 3rem 0rem 0rem 0rem;
+            
 
         }
 
